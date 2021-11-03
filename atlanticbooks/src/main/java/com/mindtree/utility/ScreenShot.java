@@ -23,7 +23,7 @@ public class ScreenShot extends WebdriverHelper {
 		//File destFile=new File(ss);
 		//FileUtils.copyFile(srcFile,destFile);
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
-		FileUtils.copyFile(srcFile,new File("M:\\Selenium\\selenium-programs\\atlanticbooks\\ScreenShot\\SS"+ result+ getCurrentDate() +System.currentTimeMillis()+".png"));
+		FileUtils.copyFile(srcFile,new File("P:/Selenium/GitRepo/atlanticbooks/ScreenShot/SS"+ result+ getCurrentDate() +System.currentTimeMillis()+".png"));
 		
 			//return ss;
 	}
