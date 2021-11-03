@@ -23,13 +23,13 @@ public class WebdriverHelper {
 	{
 		
 		prop=new Properties();
-		FileInputStream fis=new FileInputStream("M:\\Selenium\\selenium-programs\\atlanticbooks\\TestData\\config.properties");
+		FileInputStream fis=new FileInputStream("P:/Selenium/GitRepo/atlanticbooks/TestData/config.properties");
 		prop.load(fis);
 		String browserName=prop.getProperty("browser");
 		
 		//chrome
 		if(browserName.equalsIgnoreCase("chrome")) {
-			//System.setProperty("webdriver.chrome.driver","M:\\Selenium\\selenium-programs\\atlanticbooks\\Driver\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","P:/Selenium/GitRepo/atlanticbooks/Driver/chromedriver.exe");
 			driver = new ChromeDriver();
 			
 		}
