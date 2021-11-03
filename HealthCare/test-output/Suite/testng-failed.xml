@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.healthcare.utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.healthcare.runner.TestCases">
+        <methods>
+          <include name="HomeCarebooking"/>
+          <include name="suiteTeardown"/>
+          <include name="beforeClass"/>
+          <include name="classTeardown"/>
+          <include name="startup"/>
+        </methods>
+      </class> <!-- com.healthcare.runner.TestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

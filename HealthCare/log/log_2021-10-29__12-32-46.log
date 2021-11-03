@@ -1,0 +1,15 @@
+2021-10-29 12:32:47,409  INFO [main] TestCases:43 - Driver Initialised
+ 2021-10-29 12:33:11,562  INFO [main] TestCases:18 - Driver open URL and entered into Landing Page
+ 2021-10-29 12:33:40,564  INFO [main] TestCases:20 - System clicked on Book Available Services
+ 2021-10-29 12:33:40,574 DEBUG [main] TestCases:24 - Successfully navigated to Services Page
+ 2021-10-29 12:33:58,188  INFO [main] TestCases:54 - Driver open URL and entered into Landing Page
+ 2021-10-29 12:34:19,741  INFO [main] TestCases:57 - System clicked on Contact option
+ 2021-10-29 12:34:20,879  INFO [main] TestCases:63 - System entered the given details and clicked on Submit
+ 2021-10-29 12:34:20,930 DEBUG [main] TestCases:69 - Successfully submitted the details
+ 2021-10-29 12:34:21,033  INFO [main] TestCases:55 - Driver Closed
+ 2021-10-29 12:34:21,074 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-10-29 12:34:21,075 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-10-29 12:34:21,076 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-10-29 12:34:21,077 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-10-29 12:34:21,077 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/SAI%20DURGA%20PRASAD/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 
