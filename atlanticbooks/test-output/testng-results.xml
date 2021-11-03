@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-25T00:32:57 IST" name="Suite" finished-at="2021-10-25T00:34:51 IST" duration-ms="114774">
+    <groups>
+    </groups>
+    <test started-at="2021-10-25T00:32:57 IST" name="Test" finished-at="2021-10-25T00:34:51 IST" duration-ms="114774">
+      <class name="com.mindtree.runner.AtlanticApplication">
+        <test-method is-config="true" signature="intializer()[pri:0, instance:com.mindtree.runner.AtlanticApplication@61386958]" started-at="2021-10-25T00:32:57 IST" name="intializer" finished-at="2021-10-25T00:33:12 IST" duration-ms="15451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializer -->
+        <test-method signature="HomePage()[pri:1, instance:com.mindtree.runner.AtlanticApplication@61386958]" started-at="2021-10-25T00:33:12 IST" name="HomePage" finished-at="2021-10-25T00:33:14 IST" duration-ms="2155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:2, instance:com.mindtree.runner.AtlanticApplication@61386958]" started-at="2021-10-25T00:33:35 IST" name="LoginPage" data-provider="getData" finished-at="2021-10-25T00:33:41 IST" duration-ms="5828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manasv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:2, instance:com.mindtree.runner.AtlanticApplication@61386958]" started-at="2021-10-25T00:33:51 IST" name="LoginPage" data-provider="getData" finished-at="2021-10-25T00:34:19 IST" duration-ms="28151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[minnu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+        <test-method signature="SearchBook()[pri:3, instance:com.mindtree.runner.AtlanticApplication@61386958]" started-at="2021-10-25T00:34:37 IST" name="SearchBook" finished-at="2021-10-25T00:34:51 IST" duration-ms="13753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBook -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mindtree.runner.AtlanticApplication@61386958]" started-at="2021-10-25T00:34:51 IST" name="teardown" finished-at="2021-10-25T00:34:51 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mindtree.runner.AtlanticApplication -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
